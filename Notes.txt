@@ -20,3 +20,17 @@ if day_of_week=="saturday" or "sunday":
   5)
   for cloud in list_of_cloud:
    - here cloud is iterator to iterate inside loop to print things   
+
+6)
+we have libraires in python to work as an devops engineer
+
+OS - to work on OS level
+Shutil - to work in shell level
+system - to work on systemm level
+
+7)
+os.system me OS is library and system is function which take command as parameter like df -h(disk usage) , uptime(system uptime) , free -h(ram usage)
+
+8)
+
+to create a function in python we use def which means define
