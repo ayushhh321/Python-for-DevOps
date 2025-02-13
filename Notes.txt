@@ -1,0 +1,2 @@
+num=6   -> value 6 is assigned to num
+num==6  -> things will compare
