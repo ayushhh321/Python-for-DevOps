@@ -16,3 +16,7 @@ if day_of_week=="saturday" or "sunday":
   list = it is a data structure which contain multiple element of different data types.
   list.append() - add element end of the list
   list.insert() - take two argument location(index) and value .
+
+  5)
+  for cloud in list_of_cloud:
+   - here cloud is iterator to iterate inside loop to print things   
