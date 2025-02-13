@@ -34,3 +34,7 @@ os.system me OS is library and system is function which take command as paramete
 8)
 
 to create a function in python we use def which means define
+
+9)
+if we want to use python with AWS we have to use a module named Boto3 . 
+pip install boto3
