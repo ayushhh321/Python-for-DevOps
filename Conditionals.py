@@ -7,3 +7,21 @@ if day_of_week=="saturday" or day_of_week=="sunday":
   print("Weekend")
 else:
   print("Not weekend")
+
+  #Calcualtion using condaitonals
+  
+
+choice = input("Enter the operation: (Options + , -, *, /,%) ")
+
+if choice == "+":
+  print("addition")
+elif choice == "-":
+  print("subtraction")
+elif choice == "":
+  print("multiplication")
+elif choice == "/":
+  print("division")
+elif choice == "%":
+  print("remainder")
+else:
+  print("Invalid choice")

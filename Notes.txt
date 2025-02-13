@@ -1,2 +1,10 @@
-num=6   -> value 6 is assigned to num
+1) num=6   -> value 6 is assigned to num
 num==6  -> things will compare
+
+2)
+
+if day_of_week=="saturday" or "sunday":
+  print("Weekend")    // This if condition wrong in python use this only
+
+  if day_of_week=="saturday" or day_of_week== "sunday":
+  print("Weekend")
