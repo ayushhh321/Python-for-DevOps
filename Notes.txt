@@ -11,3 +11,8 @@ if day_of_week=="saturday" or "sunday":
 
   3)
   we use ELif in python instead of Else IF
+
+  4)
+  list = it is a data structure which contain multiple element of different data types.
+  list.append() - add element end of the list
+  list.insert() - take two argument location(index) and value .
