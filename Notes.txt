@@ -8,3 +8,6 @@ if day_of_week=="saturday" or "sunday":
 
   if day_of_week=="saturday" or day_of_week== "sunday":
   print("Weekend")
+
+  3)
+  we use ELif in python instead of Else IF

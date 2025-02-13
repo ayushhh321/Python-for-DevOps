@@ -11,17 +11,25 @@ else:
   #Calcualtion using condaitonals
   
 
+num1= int(input("Enter num1: "))
+num2 =int(input("Enter num2: "))
+
 choice = input("Enter the operation: (Options + , -, *, /,%) ")
 
 if choice == "+":
-  print("addition")
+  addition=num1+num2
+  print("addition",addition)
 elif choice == "-":
-  print("subtraction")
-elif choice == "":
-  print("multiplication")
+  subtraction=num1-num2
+  print("subtraction",subtraction)
+elif choice == "*":
+  multiplication=num1*num2
+  print("multiplication",multiplication)
 elif choice == "/":
-  print("division")
+  division=num1/num2
+  print("division",division)
 elif choice == "%":
-  print("remainder")
+  remainder=num1%num2
+  print("remainder",remainder)
 else:
   print("Invalid choice")
