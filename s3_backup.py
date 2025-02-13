@@ -11,9 +11,23 @@ def show_buckets(s3):
       print(bucket.name)
     
 def create_bucket(s3):
-  s3.create_bucket(Bucket="pyhton - ayush",CreateBucketConfiguration={'LocationConstraint': 'us-east-2'})  #from documentation
+  s3.create_bucket(Bucket=bucket_name,CreateBucketConfiguration={'LocationConstraint': region })  #from documentation code copy pasted
   
   print("bucket created")
   
-create_bucket(s3)
-show_buckets(s3)
+ 
+#jo backup create kra toh now upplaoding to s3 
+def upload_backup(s3, file_name, bucket_name, key_name):
+
+  data = open(file_name, 'rb") # file gets read in binary me read hoga
+  s3.Bucket(bucket_name).put_object(Key=key_name) Body=data)
+  print("Backup Uploaded successfully")
+
+bucket_name = "python-for-devops-junoon"
+region = "us-east-2"
+# create_bucket(s3,bucket_name, region)
+# show_buckets(s3)
+file_name = "D:\folders\Python for DevOps>"
+upload_backup(s3, file_name,bucket_name,"my-backup.tar.gz")
+  
+  
